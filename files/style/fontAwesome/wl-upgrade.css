@@ -1,0 +1,752 @@
+.icon,
+.fa {
+	font-family: 'Font Awesome 5 Free';
+}
+
+/* replacements */
+
+.fa-address-book-o:before { content: "\f2b9"; }
+.fa-address-card-o:before { content: "\f2bb"; }
+.fa-area-chart:before { content: "\f1fe"; font-weight: 900; }
+.fa-arrow-circle-o-down:before { content: "\f358"; }
+.fa-arrow-circle-o-left:before { content: "\f359"; }
+.fa-arrow-circle-o-right:before { content: "\f35a"; }
+.fa-arrow-circle-o-up:before { content: "\f35b"; }
+.fa-arrows:before { content: "\f0b2"; font-weight: 900; }
+.fa-arrows-alt:before { content: "\f31e"; font-weight: 900; }
+.fa-arrows-h:before { content: "\f337"; font-weight: 900; }
+.fa-arrows-v:before { content: "\f338"; font-weight: 900; }
+.fa-asl-interpreting:before { content: "\f2a3"; font-weight: 900; }
+.fa-automobile:before { content: "\f1b9"; font-weight: 900; }
+.fa-bandcamp:before { content: "\f2d5"; font-weight: 900; }
+.fa-bank:before { content: "\f19c"; font-weight: 900; }
+.fa-bar-chart:before { content: "\f080"; }
+.fa-bar-chart-o:before { content: "\f080"; }
+.fa-bathtub:before { content: "\f2cd"; font-weight: 900; }
+.fa-battery:before { content: "\f240"; font-weight: 900; }
+.fa-battery-0:before { content: "\f244"; font-weight: 900; }
+.fa-battery-1:before { content: "\f243"; font-weight: 900; }
+.fa-battery-2:before { content: "\f242"; font-weight: 900; }
+.fa-battery-3:before { content: "\f241"; font-weight: 900; }
+.fa-battery-4:before { content: "\f240"; font-weight: 900; }
+.fa-bell-o:before { content: "\f0f3"; }
+.fa-bell-slash-o:before { content: "\f1f6"; }
+.fa-bitbucket-square:before { content: "\f171"; }
+.fa-bitcoin:before { content: "\f15a"; }
+.fa-bookmark-o:before { content: "\f02e"; }
+.fa-building-o:before { content: "\f1ad"; }
+.fa-cab	taxi:before { content: "\f1ba"; font-weight: 900; }
+.fa-calendar:before { content: "\f073"; font-weight: 900; }
+.fa-calendar-check-o:before { content: "\f274"; }
+.fa-calendar-minus-o:before { content: "\f272"; }
+.fa-calendar-o:before { content: "\f133"; }
+.fa-calendar-plus-o:before { content: "\f271"; }
+.fa-calendar-times-o:before { content: "\f273"; }
+.fa-caret-square-o-down:before { content: "\f150"; }
+.fa-caret-square-o-left:before { content: "\f191"; }
+.fa-caret-square-o-right:before { content: "\f152"; }
+.fa-caret-square-o-up:before { content: "\f151"; }
+.fa-cc:before { content: "\f20a"; }
+.fa-chain:before { content: "\f0c1"; font-weight: 900; }
+.fa-chain-broken:before { content: "\f127"; font-weight: 900; }
+.fa-check-circle-o:before { content: "\f058"; }
+.fa-check-square-o:before { content: "\f14a"; }
+.fa-circle-o:before { content: "\f111"; }
+.fa-circle-o-notch:before { content: "\f1ce"; font-weight: 900; }
+.fa-circle-thin:before { content: "\f111"; }
+.fa-clipboard:before { content: "\f328"; }
+.fa-clock-o:before { content: "\f017"; }
+.fa-clone:before { content: "\f24d"; }
+.fa-close:before { content: "\f00d"; font-weight: 900; }
+.fa-cloud-download:before { content: "\f381"; font-weight: 900; }
+.fa-cloud-upload:before { content: "\f382"; font-weight: 900; }
+.fa-cny	yen-sign:before { content: "\f157"; font-weight: 900; }
+.fa-code-fork:before { content: "\f126"; font-weight: 900; }
+.fa-comment-o:before { content: "\f075"; }
+.fa-commenting:before { content: "\f4ad"; font-weight: 900; }
+.fa-commenting-o:before { content: "\f4ad"; }
+.fa-comments-o:before { content: "\f086"; }
+.fa-compass:before { content: "\f14e"; }
+.fa-copyright:before { content: "\f1f9"; }
+.fa-credit-card:before { content: "\f09d"; }
+.fa-credit-card-alt:before { content: "\f09d"; font-weight: 900; }
+.fa-cutlery	utensils:before { content: "\f2e7"; font-weight: 900; }
+.fa-dashboard:before { content: "\f3fd"; font-weight: 900; }
+.fa-deafness:before { content: "\f2a4"; font-weight: 900; }
+.fa-dedent:before { content: "\f03b"; font-weight: 900; }
+.fa-diamond:before { content: "\f3a5"; }
+.fa-dollar:before { content: "\f155"; font-weight: 900; }
+.fa-dot-circle-o:before { content: "\f192"; }
+.fa-drivers-license:before { content: "\f2c2"; font-weight: 900; }
+.fa-drivers-license-o:before { content: "\f2c2"; }
+.fa-eercast:before { content: "\f2da"; }
+.fa-envelope-o:before { content: "\f0e0"; }
+.fa-envelope-open-o:before { content: "\f2b6"; }
+.fa-eur:before { content: "\f153"; font-weight: 900; }
+.fa-euro:before { content: "\f153"; font-weight: 900; }
+.fa-exchange:before { content: "\f362"; font-weight: 900; }
+.fa-external-link:before { content: "\f35d"; font-weight: 900; }
+.fa-external-link-square:before { content: "\f360"; font-weight: 900; }
+.fa-eye:before { content: "\f06e"; }
+.fa-eye-slash:before { content: "\f070"; }
+.fa-eyedropper:before { content: "\f1fb"; font-weight: 900; }
+.fa-fa:before { content: "\f2b4"; }
+.fa-facebook-official:before { content: "\f09a"; }
+.fa-feed:before { content: "\f09e"; font-weight: 900; }
+.fa-file-archive-o:before { content: "\f1c6"; }
+.fa-file-audio-o:before { content: "\f1c7"; }
+.fa-file-code-o:before { content: "\f1c9"; }
+.fa-file-excel-o:before { content: "\f1c3"; }
+.fa-file-image-o:before { content: "\f1c5"; }
+.fa-file-movie-o:before { content: "\f1c8"; }
+.fa-file-o:before { content: "\f15b"; }
+.fa-file-pdf-o:before { content: "\f1c1"; }
+.fa-file-photo-o:before { content: "\f1c5"; }
+.fa-file-picture-o:before { content: "\f1c5"; }
+.fa-file-powerpoint-o:before { content: "\f1c4"; }
+.fa-file-sound-o:before { content: "\f1c7"; }
+.fa-file-text:before { content: "\f15c"; font-weight: 900; }
+.fa-file-text-o:before { content: "\f15c"; }
+.fa-file-video-o:before { content: "\f1c8"; }
+.fa-file-word-o:before { content: "\f1c2"; }
+.fa-file-zip-o:before { content: "\f1c6"; }
+.fa-files-o:before { content: "\f0c5"; }
+.fa-flag-o:before { content: "\f024"; }
+.fa-flash:before { content: "\f0e7"; font-weight: 900; }
+.fa-floppy-o:before { content: "\f0c7"; }
+.fa-folder-o:before { content: "\f07b"; }
+.fa-folder-open-o:before { content: "\f07c"; }
+.fa-frown-o:before { content: "\f119"; }
+.fa-futbol-o:before { content: "\f1e3"; }
+.fa-gbp:before { content: "\f154"; font-weight: 900; }
+.fa-ge:before { content: "\f1d1"; font-weight: 900; }
+.fa-gear:before { content: "\f013"; font-weight: 900; }
+.fa-gears:before { content: "\f085"; font-weight: 900; }
+.fa-gittip:before { content: "\f184"; }
+.fa-glass:before { content: "\f000"; font-weight: 900; }
+.fa-google-plus:before,
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before { content: "\f2b3"; }
+.fa-group:before { content: "\f0c0"; font-weight: 900; }
+.fa-hand-grab-o:before { content: "\f255"; }
+.fa-hand-lizard-o:before { content: "\f258"; }
+.fa-hand-o-down:before { content: "\f0a7"; }
+.fa-hand-o-left:before { content: "\f0a5"; }
+.fa-hand-o-right:before { content: "\f0a4"; }
+.fa-hand-o-up:before { content: "\f0a6"; }
+.fa-hand-paper-o:before { content: "\f256"; }
+.fa-hand-peace-o:before { content: "\f25b"; }
+.fa-hand-pointer-o:before { content: "\f25a"; }
+.fa-hand-rock-o:before { content: "\f255"; }
+.fa-hand-scissors-o:before { content: "\f257"; }
+.fa-hand-spock-o:before { content: "\f259"; }
+.fa-hand-stop-o:before { content: "\f256"; }
+.fa-handshake-o:before { content: "\f2b5"; }
+.fa-hard-of-hearing:before { content: "\f2a4"; font-weight: 900; }
+.fa-hdd-o:before { content: "\f0a0"; }
+.fa-header:before { content: "\f1dc"; font-weight: 900; }
+.fa-heart-o:before { content: "\f004"; }
+.fa-hospital-o:before { content: "\f0f8"; }
+.fa-hotel:before { content: "\f236"; font-weight: 900; }
+.fa-hourglass-1:before { content: "\f251"; font-weight: 900; }
+.fa-hourglass-2:before { content: "\f252"; font-weight: 900; }
+.fa-hourglass-3:before { content: "\f253"; font-weight: 900; }
+.fa-hourglass-o:before { content: "\f254"; }
+.fa-id-badge:before { content: "\f2c1"; }
+.fa-id-card-o:before { content: "\f2c2"; }
+.fa-ils	shekel-sign:before { content: "\f20b"; font-weight: 900; }
+.fa-image:before { content: "\f03e"; }
+.fa-inr	rupee-sign:before { content: "\f156"; font-weight: 900; }
+.fa-institution:before { content: "\f19c"; font-weight: 900; }
+.fa-intersex:before { content: "\f224"; font-weight: 900; }
+.fa-jpy	yen-sign:before { content: "\f157"; font-weight: 900; }
+.fa-keyboard-o:before { content: "\f11c"; }
+.fa-krw	won-sign:before { content: "\f159"; font-weight: 900; }
+.fa-legal:before { content: "\f0e3"; font-weight: 900; }
+.fa-lemon-o:before { content: "\f094"; }
+.fa-level-down:before { content: "\f3be"; font-weight: 900; }
+.fa-level-up:before { content: "\f3bf"; font-weight: 900; }
+.fa-life-bouy:before { content: "\f1cd"; }
+.fa-life-buoy:before { content: "\f1cd"; }
+.fa-life-ring:before { content: "\f1cd"; }
+.fa-life-saver:before { content: "\f1cd"; }
+.fa-lightbulb-o:before { content: "\f0eb"; }
+.fa-line-chart:before { content: "\f201"; font-weight: 900; }
+.fa-linkedin:before { content: "\f0e1"; }
+.fa-linkedin-square:before { content: "\f08c"; }
+.fa-list-alt:before { content: "\f022"; }
+.fa-long-arrow-down:before { content: "\f309"; font-weight: 900; }
+.fa-long-arrow-left:before { content: "\f30a"; font-weight: 900; }
+.fa-long-arrow-right:before { content: "\f30b"; font-weight: 900; }
+.fa-long-arrow-up:before { content: "\f30c"; font-weight: 900; }
+.fa-mail-forward:before { content: "\f064"; font-weight: 900; }
+.fa-mail-reply:before { content: "\f3e5"; font-weight: 900; }
+.fa-mail-reply-all:before { content: "\f122"; font-weight: 900; }
+.fa-map-marker:before { content: "\f3c5"; font-weight: 900; }
+.fa-map-o:before { content: "\f279"; }
+.fa-meanpath:before { content: "\f2b4"; }
+.fa-meh-o:before { content: "\f11a"; }
+.fa-minus-square-o:before { content: "\f146"; }
+.fa-mobile:before { content: "\f3cd"; font-weight: 900; }
+.fa-mobile-phone:before { content: "\f3cd"; font-weight: 900; }
+.fa-money:before { content: "\f3d1"; }
+.fa-moon-o:before { content: "\f186"; }
+.fa-mortar-board:before { content: "\f19d"; font-weight: 900; }
+.fa-navicon:before { content: "\f0c9"; font-weight: 900; }
+.fa-newspaper-o:before { content: "\f1ea"; }
+.fa-object-group:before { content: "\f247"; }
+.fa-object-ungroup:before { content: "\f248"; }
+.fa-paper-plane-o:before { content: "\f1d8"; }
+.fa-paste:before { content: "\f328"; }
+.fa-pause-circle-o:before { content: "\f28b"; }
+.fa-pencil:before { content: "\f303"; font-weight: 900; }
+.fa-pencil-square:before { content: "\f14b"; font-weight: 900; }
+.fa-pencil-square-o:before { content: "\f044"; }
+.fa-photo:before { content: "\f03e"; }
+.fa-picture-o:before { content: "\f03e"; }
+.fa-pie-chart:before { content: "\f200"; font-weight: 900; }
+.fa-play-circle-o:before { content: "\f144"; }
+.fa-plus-square-o:before { content: "\f0fe"; }
+.fa-question-circle-o:before { content: "\f059"; }
+.fa-ra:before { content: "\f1d0"; }
+.fa-refresh	sync:before { content: "\f021"; font-weight: 900; }
+.fa-registered:before { content: "\f25d"; }
+.fa-remove:before { content: "\f00d"; font-weight: 900; }
+.fa-reorder:before { content: "\f0c9"; font-weight: 900; }
+.fa-repeat:before { content: "\f01e"; font-weight: 900; }
+.fa-resistance:before { content: "\f1d0"; }
+.fa-rmb:before { content: "\f157"; font-weight: 900; }
+.fa-rotate-left:before { content: "\f0e2"; font-weight: 900; }
+.fa-rotate-right:before { content: "\f01e"; font-weight: 900; }
+.fa-rouble:before { content: "\f158"; font-weight: 900; }
+.fa-rub:before { content: "\f158"; font-weight: 900; }
+.fa-ruble:before { content: "\f158"; font-weight: 900; }
+.fa-rupee:before { content: "\f156"; font-weight: 900; }
+.fa-s15:before { content: "\f2cd"; font-weight: 900; }
+.fa-safari:before { content: "\f267"; }
+.fa-scissors:before { content: "\f0c4"; font-weight: 900; }
+.fa-send:before { content: "\f1d8"; font-weight: 900; }
+.fa-send-o:before { content: "\f1d8"; }
+.fa-share-square-o:before { content: "\f14d"; }
+.fa-shekel:before { content: "\f20b"; font-weight: 900; }
+.fa-sheqel:before { content: "\f20b"; font-weight: 900; }
+.fa-shield:before { content: "\f3ed"; font-weight: 900; }
+.fa-sign-in:before { content: "\f2f6"; font-weight: 900; }
+.fa-sign-out:before { content: "\f2f5"; font-weight: 900; }
+.fa-signing:before { content: "\f2a7"; font-weight: 900; }
+.fa-sliders:before { content: "\f1de"; font-weight: 900; }
+.fa-smile-o:before { content: "\f118"; }
+.fa-snowflake-o:before { content: "\f2dc"; }
+.fa-soccer-ball-o:before { content: "\f1e3"; }
+.fa-sort-alpha-asc:before { content: "\f15d"; font-weight: 900; }
+.fa-sort-alpha-desc:before { content: "\f15e"; font-weight: 900; }
+.fa-sort-amount-asc:before { content: "\f160"; font-weight: 900; }
+.fa-sort-amount-desc:before { content: "\f161"; font-weight: 900; }
+.fa-sort-asc:before { content: "\f0de"; font-weight: 900; }
+.fa-sort-desc:before { content: "\f0dd"; font-weight: 900; }
+.fa-sort-numeric-asc:before { content: "\f162"; font-weight: 900; }
+.fa-sort-numeric-desc:before { content: "\f163"; font-weight: 900; }
+.fa-spoon:before { content: "\f2e5"; font-weight: 900; }
+.fa-square-o:before { content: "\f0c8"; }
+.fa-star-half-empty:before { content: "\f089"; }
+.fa-star-half-full:before { content: "\f089"; }
+.fa-star-half-o:before { content: "\f089"; }
+.fa-star-o:before { content: "\f005"; }
+.fa-sticky-note-o:before { content: "\f249"; }
+.fa-stop-circle-o:before { content: "\f28d"; }
+.fa-sun-o:before { content: "\f185"; }
+.fa-support:before { content: "\f1cd"; }
+.fa-tablet:before { content: "\f3fa"; font-weight: 900; }
+.fa-tachometer:before { content: "\f3fd"; font-weight: 900; }
+.fa-television:before { content: "\f26c"; font-weight: 900; }
+.fa-thermometer:before { content: "\f2c7"; font-weight: 900; }
+.fa-thermometer-0:before { content: "\f2cb"; font-weight: 900; }
+.fa-thermometer-1:before { content: "\f2ca"; font-weight: 900; }
+.fa-thermometer-2:before { content: "\f2c9"; font-weight: 900; }
+.fa-thermometer-3:before { content: "\f2c8"; font-weight: 900; }
+.fa-thermometer-4:before { content: "\f2c7"; font-weight: 900; }
+.fa-thumb-tack:before { content: "\f08d"; font-weight: 900; }
+.fa-thumbs-o-down:before { content: "\f165"; }
+.fa-thumbs-o-up:before { content: "\f164"; }
+.fa-ticket:before { content: "\f3ff"; font-weight: 900; }
+.fa-times-circle-o:before { content: "\f057"; }
+.fa-times-rectangle:before { content: "\f410"; font-weight: 900; }
+.fa-times-rectangle-o:before { content: "\f410"; }
+.fa-toggle-down:before { content: "\f150"; }
+.fa-toggle-left:before { content: "\f191"; }
+.fa-toggle-right:before { content: "\f152"; }
+.fa-toggle-up:before { content: "\f151"; }
+.fa-trash:before { content: "\f2ed"; font-weight: 900; }
+.fa-trash-o:before { content: "\f2ed"; }
+.fa-try	lira-sign:before { content: "\f195"; font-weight: 900; }
+.fa-turkish-lira:before { content: "\f195"; font-weight: 900; }
+.fa-unsorted:before { content: "\f0dc"; font-weight: 900; }
+.fa-usd:before { content: "\f155"; font-weight: 900; }
+.fa-user-circle-o:before { content: "\f2bd"; }
+.fa-user-o:before { content: "\f007"; }
+.fa-vcard:before { content: "\f2bb"; font-weight: 900; }
+.fa-vcard-o:before { content: "\f2bb"; }
+.fa-video-camera:before { content: "\f03d"; font-weight: 900; }
+.fa-vimeo:before { content: "\f27d"; }
+.fa-volume-control-phone:before { content: "\f2a0"; font-weight: 900; }
+.fa-warning	exclamation-triangle:before { content: "\f071"; font-weight: 900; }
+.fa-wechat:before { content: "\f1d7"; }
+.fa-wheelchair-alt:before { content: "\f368"; }
+.fa-window-close-o:before { content: "\f410"; }
+.fa-window-maximize:before { content: "\f2d0"; }
+.fa-window-restore:before { content: "\f2d2"; }
+.fa-won:before { content: "\f159"; font-weight: 900; }
+.fa-y-combinator:before { content: "\f23b"; }
+.fa-y-combinator-square:before { content: "\f1d4"; }
+.fa-yc:before { content: "\f23b"; }
+.fa-yc-square:before { content: "\f1d4"; }
+.fa-yen:before { content: "\f157"; font-weight: 900; }
+.fa-youtube-play:before { content: "\f167"; }
+
+/* brands */
+
+.fa-facebook-official,
+.fa-500px,
+.fa-accessible-icon,
+.fa-accusoft,
+.fa-acquisitions-incorporated,
+.fa-adn,
+.fa-adobe,
+.fa-adversal,
+.fa-affiliatetheme,
+.fa-airbnb,
+.fa-algolia,
+.fa-alipay,
+.fa-amazon,
+.fa-amazon-pay,
+.fa-amilia,
+.fa-android,
+.fa-angellist,
+.fa-angrycreative,
+.fa-angular,
+.fa-app-store,
+.fa-app-store-ios,
+.fa-apper,
+.fa-apple,
+.fa-apple-pay,
+.fa-artstation,
+.fa-asymmetrik,
+.fa-atlassian,
+.fa-audible,
+.fa-autoprefixer,
+.fa-avianex,
+.fa-aviato,
+.fa-aws,
+.fa-bandcamp,
+.fa-battle-net,
+.fa-behance,
+.fa-behance-square,
+.fa-bimobject,
+.fa-bitbucket,
+.fa-bitcoin,
+.fa-bity,
+.fa-black-tie,
+.fa-blackberry,
+.fa-blogger,
+.fa-blogger-b,
+.fa-bluetooth,
+.fa-bluetooth-b,
+.fa-bootstrap,
+.fa-btc,
+.fa-buffer,
+.fa-buromobelexperte,
+.fa-buy-n-large,
+.fa-buysellads,
+.fa-canadian-maple-leaf,
+.fa-cc-amazon-pay,
+.fa-cc-amex,
+.fa-cc-apple-pay,
+.fa-cc-diners-club,
+.fa-cc-discover,
+.fa-cc-jcb,
+.fa-cc-mastercard,
+.fa-cc-paypal,
+.fa-cc-stripe,
+.fa-cc-visa,
+.fa-centercode,
+.fa-centos,
+.fa-chrome,
+.fa-chromecast,
+.fa-cloudscale,
+.fa-cloudsmith,
+.fa-cloudversify,
+.fa-codepen,
+.fa-codiepie,
+.fa-confluence,
+.fa-connectdevelop,
+.fa-contao,
+.fa-cotton-bureau,
+.fa-cpanel,
+.fa-creative-commons,
+.fa-creative-commons-by,
+.fa-creative-commons-nc,
+.fa-creative-commons-nc-eu,
+.fa-creative-commons-nc-jp,
+.fa-creative-commons-nd,
+.fa-creative-commons-pd,
+.fa-creative-commons-pd-alt,
+.fa-creative-commons-remix,
+.fa-creative-commons-sa,
+.fa-creative-commons-sampling,
+.fa-creative-commons-sampling-plus,
+.fa-creative-commons-share,
+.fa-creative-commons-zero,
+.fa-critical-role,
+.fa-css3,
+.fa-css3-alt,
+.fa-cuttlefish,
+.fa-d-and-d,
+.fa-d-and-d-beyond,
+.fa-dailymotion,
+.fa-dashcube,
+.fa-delicious,
+.fa-deploydog,
+.fa-deskpro,
+.fa-dev,
+.fa-deviantart,
+.fa-dhl,
+.fa-diaspora,
+.fa-digg,
+.fa-digital-ocean,
+.fa-discord,
+.fa-discourse,
+.fa-dochub,
+.fa-docker,
+.fa-draft2digital,
+.fa-dribbble,
+.fa-dribbble-square,
+.fa-dropbox,
+.fa-drupal,
+.fa-dyalog,
+.fa-earlybirds,
+.fa-ebay,
+.fa-edge,
+.fa-elementor,
+.fa-ello,
+.fa-ember,
+.fa-empire,
+.fa-envira,
+.fa-erlang,
+.fa-ethereum,
+.fa-etsy,
+.fa-evernote,
+.fa-expeditedssl,
+.fa-facebook,
+.fa-facebook-f,
+.fa-facebook-messenger,
+.fa-facebook-square,
+.fa-fantasy-flight-games,
+.fa-fedex,
+.fa-fedora,
+.fa-figma,
+.fa-firefox,
+.fa-firefox-browser,
+.fa-first-order,
+.fa-first-order-alt,
+.fa-firstdraft,
+.fa-flickr,
+.fa-flipboard,
+.fa-fly,
+.fa-font-awesome,
+.fa-font-awesome-alt,
+.fa-font-awesome-flag,
+.fa-fonticons,
+.fa-fonticons-fi,
+.fa-fort-awesome,
+.fa-fort-awesome-alt,
+.fa-forumbee,
+.fa-foursquare,
+.fa-free-code-camp,
+.fa-freebsd,
+.fa-fulcrum,
+.fa-galactic-republic,
+.fa-galactic-senate,
+.fa-get-pocket,
+.fa-gg,
+.fa-gg-circle,
+.fa-git,
+.fa-git-alt,
+.fa-git-square,
+.fa-github,
+.fa-github-alt,
+.fa-github-square,
+.fa-gitkraken,
+.fa-gitlab,
+.fa-gitter,
+.fa-glide,
+.fa-glide-g,
+.fa-gofore,
+.fa-goodreads,
+.fa-goodreads-g,
+.fa-google,
+.fa-google-drive,
+.fa-google-play,
+.fa-google-plus,
+.fa-google-plus-g,
+.fa-google-plus-square,
+.fa-google-wallet,
+.fa-gratipay,
+.fa-grav,
+.fa-gripfire,
+.fa-grunt,
+.fa-gulp,
+.fa-hacker-news,
+.fa-hacker-news-square,
+.fa-hackerrank,
+.fa-hips,
+.fa-hire-a-helper,
+.fa-hooli,
+.fa-hornbill,
+.fa-hotjar,
+.fa-houzz,
+.fa-html5,
+.fa-hubspot,
+.fa-ideal,
+.fa-imdb,
+.fa-instagram,
+.fa-instagram-square,
+.fa-intercom,
+.fa-internet-explorer,
+.fa-invision,
+.fa-ioxhost,
+.fa-itch-io,
+.fa-itunes,
+.fa-itunes-note,
+.fa-java,
+.fa-jedi-order,
+.fa-jenkins,
+.fa-jira,
+.fa-joget,
+.fa-joomla,
+.fa-js,
+.fa-js-square,
+.fa-jsfiddle,
+.fa-kaggle,
+.fa-keybase,
+.fa-keycdn,
+.fa-kickstarter,
+.fa-kickstarter-k,
+.fa-korvue,
+.fa-laravel,
+.fa-lastfm,
+.fa-lastfm-square,
+.fa-leanpub,
+.fa-less,
+.fa-line,
+.fa-linkedin,
+.fa-linkedin-in,
+.fa-linode,
+.fa-linux,
+.fa-lyft,
+.fa-magento,
+.fa-mailchimp,
+.fa-mandalorian,
+.fa-markdown,
+.fa-mastodon,
+.fa-maxcdn,
+.fa-mdb,
+.fa-medapps,
+.fa-medium,
+.fa-medium-m,
+.fa-medrt,
+.fa-meetup,
+.fa-megaport,
+.fa-mendeley,
+.fa-microblog,
+.fa-microsoft,
+.fa-mix,
+.fa-mixcloud,
+.fa-mixer,
+.fa-mizuni,
+.fa-modx,
+.fa-monero,
+.fa-napster,
+.fa-neos,
+.fa-nimblr,
+.fa-node,
+.fa-node-js,
+.fa-npm,
+.fa-ns8,
+.fa-nutritionix,
+.fa-odnoklassniki,
+.fa-odnoklassniki-square,
+.fa-old-republic,
+.fa-opencart,
+.fa-openid,
+.fa-opera,
+.fa-optin-monster,
+.fa-orcid,
+.fa-osi,
+.fa-page4,
+.fa-pagelines,
+.fa-palfed,
+.fa-patreon,
+.fa-paypal,
+.fa-penny-arcade,
+.fa-periscope,
+.fa-phabricator,
+.fa-phoenix-framework,
+.fa-phoenix-squadron,
+.fa-php,
+.fa-pied-piper,
+.fa-pied-piper-alt,
+.fa-pied-piper-hat,
+.fa-pied-piper-pp,
+.fa-pied-piper-square,
+.fa-pinterest,
+.fa-pinterest-p,
+.fa-pinterest-square,
+.fa-playstation,
+.fa-product-hunt,
+.fa-pushed,
+.fa-python,
+.fa-qq,
+.fa-quinscape,
+.fa-quora,
+.fa-r-project,
+.fa-raspberry-pi,
+.fa-ravelry,
+.fa-react,
+.fa-reacteurope,
+.fa-readme,
+.fa-rebel,
+.fa-red-river,
+.fa-reddit,
+.fa-reddit-alien,
+.fa-reddit-square,
+.fa-redhat,
+.fa-renren,
+.fa-replyd,
+.fa-researchgate,
+.fa-resolving,
+.fa-rev,
+.fa-rocketchat,
+.fa-rockrms,
+.fa-safari,
+.fa-salesforce,
+.fa-sass,
+.fa-schlix,
+.fa-scribd,
+.fa-searchengin,
+.fa-sellcast,
+.fa-sellsy,
+.fa-servicestack,
+.fa-shirtsinbulk,
+.fa-shopify,
+.fa-shopware,
+.fa-simplybuilt,
+.fa-sistrix,
+.fa-sith,
+.fa-sketch,
+.fa-skyatlas,
+.fa-skype,
+.fa-slack,
+.fa-slack-hash,
+.fa-slideshare,
+.fa-snapchat,
+.fa-snapchat-ghost,
+.fa-snapchat-square,
+.fa-soundcloud,
+.fa-sourcetree,
+.fa-speakap,
+.fa-speaker-deck,
+.fa-spotify,
+.fa-squarespace,
+.fa-stack-exchange,
+.fa-stack-overflow,
+.fa-stackpath,
+.fa-staylinked,
+.fa-steam,
+.fa-steam-square,
+.fa-steam-symbol,
+.fa-sticker-mule,
+.fa-strava,
+.fa-stripe,
+.fa-stripe-s,
+.fa-studiovinari,
+.fa-stumbleupon,
+.fa-stumbleupon-circle,
+.fa-superpowers,
+.fa-supple,
+.fa-suse,
+.fa-swift,
+.fa-symfony,
+.fa-teamspeak,
+.fa-telegram,
+.fa-telegram-plane,
+.fa-tencent-weibo,
+.fa-the-red-yeti,
+.fa-themeco,
+.fa-themeisle,
+.fa-think-peaks,
+.fa-trade-federation,
+.fa-trello,
+.fa-tripadvisor,
+.fa-tumblr,
+.fa-tumblr-square,
+.fa-twitch,
+.fa-twitter,
+.fa-twitter-square,
+.fa-typo3,
+.fa-uber,
+.fa-ubuntu,
+.fa-uikit,
+.fa-umbraco,
+.fa-uniregistry,
+.fa-unity,
+.fa-untappd,
+.fa-ups,
+.fa-usb,
+.fa-usps,
+.fa-ussunnah,
+.fa-vaadin,
+.fa-viacoin,
+.fa-viadeo,
+.fa-viadeo-square,
+.fa-viber,
+.fa-vimeo,
+.fa-vimeo-square,
+.fa-vimeo-v,
+.fa-vine,
+.fa-vk,
+.fa-vnv,
+.fa-vuejs,
+.fa-waze,
+.fa-weebly,
+.fa-weibo,
+.fa-weixin,
+.fa-whatsapp,
+.fa-whatsapp-square,
+.fa-whmcs,
+.fa-wikipedia-w,
+.fa-windows,
+.fa-wix,
+.fa-wizards-of-the-coast,
+.fa-wolf-pack-battalion,
+.fa-wordpress,
+.fa-wordpress-simple,
+.fa-wpbeginner,
+.fa-wpexplorer,
+.fa-wpforms,
+.fa-wpressr,
+.fa-xbox,
+.fa-xing,
+.fa-xing-square,
+.fa-y-combinator,
+.fa-yahoo,
+.fa-yammer,
+.fa-yandex,
+.fa-yandex-international,
+.fa-yarn,
+.fa-yelp,
+.fa-yoast,
+.fa-youtube,
+.fa-youtube-square,
+.fa-zhihu {
+	font-family: 'Font Awesome 5 Brands';
+}
