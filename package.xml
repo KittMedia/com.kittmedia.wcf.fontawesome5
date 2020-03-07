@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="com.kittmedia.wcf.fontawesome5" xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/package.xsd">
 	<packageinformation>
-		<packagename>Font Awesome 5</packagename>
-		<packagedescription><![CDATA[TODO]]></packagedescription>
-		<packagedescription language="de"><![CDATA[TODO]]></packagedescription>
+		<packagename>KittMedia Font Awesome 5</packagename>
+		<packagedescription><![CDATA[Replace the Font Awesome 4 icons in your WoltLab Suite with the current and up-to-date version of Font Awesome 5.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Ersetze die Font-Awesome-4-Icons in deiner WoltLab Suite mit der aktuellen Version von Font Awesome 5]]></packagedescription>
 		<version>1.0.0 RC 1</version>
-		<date>2020-03-05</date>
+		<date>2020-03-07</date>
 	</packageinformation>
 	
 	<authorinformation>
