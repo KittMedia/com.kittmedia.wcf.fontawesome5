@@ -4432,8 +4432,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("../../font/fa-brands-400.eot");
-  src: url("../../font/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../font/fa-brands-400.woff2") format("woff2"), url("../../font/fa-brands-400.woff") format("woff"), url("../../font/fa-brands-400.ttf") format("truetype"), url("../../font/fa-brands-400.svg#fontawesome") format("svg"); }
+  src: url("../../font/getFont.php?font=fa-brands-400&type=eot");
+  src: url("../../font/getFont.php?font=fa-brands-400&type=eot#iefix") format("embedded-opentype"), url("../../font/getFont.php?font=fa-brands-400&type=woff2") format("woff2"), url("../../font/getFont.php?font=fa-brands-400&type=woff") format("woff"), url("../../font/getFont.php?font=fa-brands-400&type=ttf") format("truetype"), url("../../font/getFont.php?font=fa-brands-400&type=svg#fontawesome") format("svg"); }
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
@@ -4443,8 +4443,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("../../font/fa-regular-400.eot");
-  src: url("../../font/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../font/fa-regular-400.woff2") format("woff2"), url("../../font/fa-regular-400.woff") format("woff"), url("../../font/fa-regular-400.ttf") format("truetype"), url("../../font/fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url("../../font/getFont.php?font=fa-regular-400&type=eot");
+  src: url("../../font/getFont.php?font=fa-regular-400&type=eot#iefix") format("embedded-opentype"), url("../../font/getFont.php?font=fa-regular-400&type=woff2") format("woff2"), url("../../font/getFont.php?font=fa-regular-400&type=woff") format("woff"), url("../../font/getFont.php?font=fa-regular-400&type=ttf") format("truetype"); }
 
 .far {
   font-family: 'Font Awesome 5 Free';
@@ -4454,8 +4454,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("../../font/fa-solid-900.eot");
-  src: url("../../font/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../font/fa-solid-900.woff2") format("woff2"), url("../../font/fa-solid-900.woff") format("woff"), url("../../font/fa-solid-900.ttf") format("truetype"), url("../../font/fa-solid-900.svg#fontawesome") format("svg"); }
+  src: url("../../font/getFont.php?font=fa-solid-900&type=eot");
+  src: url("../../font/getFont.php?font=fa-solid-900&type=eot#iefix") format("embedded-opentype"), url("../../font/getFont.php?font=fa-solid-900&type=woff2") format("woff2"), url("../../font/getFont.php?font=fa-solid-900&type=woff") format("woff"), url("../../font/getFont.php?font=fa-solid-900&type=ttf") format("truetype"); }
 
 .fa,
 .fas {
