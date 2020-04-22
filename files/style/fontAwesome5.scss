@@ -1,0 +1,66 @@
+/*!
+ * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@import 'fontAwesome/base/variables';
+@import 'fontAwesome/base/mixins';
+@import 'fontAwesome/base/core';
+@import 'fontAwesome/base/larger';
+@import 'fontAwesome/base/fixed-width';
+@import 'fontAwesome/base/list';
+@import 'fontAwesome/base/bordered-pulled';
+@import 'fontAwesome/base/animated';
+@import 'fontAwesome/base/rotated-flipped';
+@import 'fontAwesome/base/stacked';
+@import 'fontAwesome/base/icons';
+@import 'fontAwesome/base/screen-reader';
+
+@font-face {
+	font-family: 'Font Awesome 5 Brands';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url("../font/getFont.php?font=fa-brands-400&type=eot");
+	src: url("../font/getFont.php?font=fa-brands-400&type=eot#iefix") format("embedded-opentype"), url("../font/getFont.php?font=fa-brands-400&type=woff2") format("woff2"), url("../font/getFont.php?font=fa-brands-400&type=woff") format("woff"), url("../font/getFont.php?font=fa-brands-400&type=ttf") format("truetype"), url("../font/getFont.php?font=fa-brands-400&type=svg#fontawesome") format("svg");
+}
+
+.fab {
+	font-family: 'Font Awesome 5 Brands';
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Free';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url("../font/getFont.php?font=fa-regular-400&type=eot");
+	src: url("../font/getFont.php?font=fa-regular-400&type=eot#iefix") format("embedded-opentype"), url("../font/getFont.php?font=fa-regular-400&type=woff2") format("woff2"), url("../font/getFont.php?font=fa-regular-400&type=woff") format("woff"), url("../font/getFont.php?font=fa-regular-400&type=ttf") format("truetype");
+}
+
+.far {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Free';
+	font-style: normal;
+	font-weight: 900;
+	font-display: auto;
+	src: url("../font/getFont.php?font=fa-solid-900&type=eot");
+	src: url("../font/getFont.php?font=fa-solid-900&type=eot#iefix") format("embedded-opentype"), url("../font/getFont.php?font=fa-solid-900&type=woff2") format("woff2"), url("../font/getFont.php?font=fa-solid-900&type=woff") format("woff"), url("../font/getFont.php?font=fa-solid-900&type=ttf") format("truetype");
+}
+
+.fa,
+.fas,
+.icon {
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 400 !important;
+}
+
+@import "fontAwesome/base/v4-shims";
+@import "fontAwesome/upgrade/replacements";
+@import "fontAwesome/upgrade/special";
+@import "fontAwesome/upgrade/solid";
+@import "fontAwesome/upgrade/brands";

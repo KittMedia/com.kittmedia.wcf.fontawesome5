@@ -1,0 +1,101 @@
+/* special use cases */
+
+.articleNavigation .nextArticleButton > a::before,
+.articleNavigation .previousArticleButton > a::before,
+.commentListAddComment.collapsed::before,
+.containerList > li .buttonGroupNavigation > .buttonList li.missingValue > span::after,
+.contentHeader.messageGroupContentHeader.messageDeleted > .contentHeaderIcon::before,
+.contentHeader.messageGroupContentHeader.messageDisabled > .contentHeaderIcon::before,
+.dropdown.inputAddon > .dropdownToggle > span.active:after,
+.dropdownIndicator::after,
+.dropdownMenu li.missingValue > span:after,
+.embeddedAttachmentLink::after,
+.embeddedImageLink::after,
+.htmlContent table th.ASC > a::after,
+.htmlContent table th.DESC > a::after,
+.mainMenu::before,
+.mainMenu .boxMenu > .boxMenuHasChildren > a::after,
+.mediaManagerMediaList > li .buttonGroupNavigation > .buttonList li.missingValue > span:after,
+.menuOverlayBackLink::before,
+.menuOverlayItemLink.menuOverlayItemLinkMore::after,
+.messageCheckboxLabel::after,
+.messageCheckboxLabel::before,
+.message .messageClipboardCheckbox::after,
+.message .messageClipboardCheckbox::before,
+.messageBody > .messageText table th.ASC > a::after,
+.messageBody > .messageText table th.DESC > a::after,
+.messageGroupList .columnMark > label::after,
+.messageGroupList .columnMark > label::before,
+.messageGroupList .messageDeleted .columnAvatar::before,
+.messageGroupList .messageDisabled .columnAvatar::before,
+.messageQuickOptions::before,
+.messageQuickReplyCollapsed .messageQuickReplyContent::before,
+.messageSignature > div table th.ASC > a::after,
+.messageSignature > div table th.DESC > a::after,
+.pageHeaderSearchInputContainer .pageHeaderSearchType > .button::after,
+.redactor-layer table th.ASC > a::after,
+.redactor-layer table th.DESC > a::after,
+.showEntryList .messageDeleted .showEntryIconContainer::before,
+.showEntryList .messageDisabled .showEntryIconContainer::before,
+.table th.ASC > a::after,
+.table th.DESC > a::after,
+.tabularListRowHead > .tabularListColumns > li.ASC > a:after,
+.tabularListRowHead > .tabularListColumns > li.DESC > a:after,
+.userPanel:not(.userPanelLoggedIn)::before {
+	font-family: 'Font Awesome 5 Free';
+}
+
+a.externalURL::after {
+	content: "\f0c1";
+	font-family: 'Font Awesome 5 Free' !important;
+	font-weight: 900 !important;
+}
+
+.articleNavigation .nextArticleButton > a::before,
+.articleNavigation .previousArticleButton > a::before,
+.commentListAddComment.collapsed::before,
+.dropdownIndicator::after,
+.embeddedAttachmentLink::after,
+.embeddedImageLink::after,
+.mainMenu::before,
+.mainMenu .boxMenu > .boxMenuHasChildren > a::after,
+.messageCheckboxLabel::after,
+.message .messageClipboardCheckbox::after,
+.messageGroupList .columnMark > label::after,
+.messageQuickOptions::before,
+.messageQuickReplyCollapsed .messageQuickReplyContent::before,
+.pageHeaderSearchInputContainer .pageHeaderSearchType > .button::after {
+	font-weight: 900 !important;
+}
+
+.commentListAddComment.collapsed::before,
+.messageQuickReplyCollapsed .messageQuickReplyContent::before {
+	content: "\f3e5";
+}
+
+.messageCheckboxLabel::before,
+.message .messageClipboardCheckbox::before,
+.messageGroupList .columnMark > label::before {
+	content: "\f0c8";
+}
+
+.showEntryList .messageDeleted .showEntryIconContainer::before {
+	content: "\f2ed";
+}
+
+@media screen and (max-width: 768px) {
+	.breadcrumbs > ol > li:last-child::before {
+		content: "\f30a";
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 900;
+	}
+}
+
+.message.jsMarked .messageClipboardCheckbox::after {
+	left: 6px;
+	top: 2px;
+}
+
+.messageGroupList .jsMarked .columnMark > label::after {
+	left: 4px;
+}
