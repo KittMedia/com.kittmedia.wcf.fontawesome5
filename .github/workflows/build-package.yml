@@ -8,7 +8,7 @@ jobs:
       # Create package
       - uses: actions/checkout@v2
       - name: WoltLab Suite Package Creation
-        uses: KittMedia/action-wsc-package-create@v1
+        uses: KittMedia/action-wsc-package-create@main
       # Install SSH key
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
