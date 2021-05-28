@@ -4,8 +4,8 @@
 		<packagename>KittMedia Font Awesome 5</packagename>
 		<packagedescription><![CDATA[Replace the Font Awesome 4 icons in your WoltLab Suite with the current and up-to-date version of Font Awesome 5.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Ersetze die Font-Awesome-4-Icons in deiner WoltLab Suite mit der aktuellen Version von Font Awesome 5]]></packagedescription>
-		<version>1.0.2</version>
-		<date>2021-05-25</date>
+		<version>1.0.3</version>
+		<date>2021-05-28</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -27,6 +27,11 @@
 	</instructions>
 	
 	<instructions type="update" fromversion="1.0.1">
+		<!-- files -->
+		<instruction type="file" />
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.2">
 		<!-- files -->
 		<instruction type="file" />
 	</instructions>
