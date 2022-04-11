@@ -41,7 +41,8 @@
 .table th.DESC > a::after,
 .tabularListRowHead > .tabularListColumns > li.ASC > a:after,
 .tabularListRowHead > .tabularListColumns > li.DESC > a:after,
-.userPanel:not(.userPanelLoggedIn)::before {
+.userPanel:not(.userPanelLoggedIn)::before,
+.wbbPost.wbbPostDeleted.messageCollapsedExpandable .messageHeaderWrapper > :first-child::before {
 	font-family: 'Font Awesome 5 Free';
 }
 
@@ -79,7 +80,9 @@ a.externalURL::after {
 	content: "\f0c8";
 }
 
-.showEntryList .messageDeleted .showEntryIconContainer::before {
+.showEntryList .messageDeleted .showEntryIconContainer::before,
+.contentHeader.messageGroupContentHeader.messageDeleted > .contentHeaderIcon::before,
+.wbbPost.wbbPostDeleted.messageCollapsedExpandable .messageHeaderWrapper > :first-child::before {
 	content: "\f2ed";
 }
 
